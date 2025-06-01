@@ -20,17 +20,7 @@ var/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-ENV/
-env/
-.env
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-data/
 
 # IDE specific files
 .idea/
@@ -53,7 +43,3 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Bot specific
-config.py
-bot_data/
