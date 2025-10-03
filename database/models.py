@@ -160,7 +160,7 @@ class Database:
                 await self.add_menu_item('info', '🚚 Доставка', None, 7, False)
                 await self.add_menu_item('info', '💰 Оплата', None, 8, False)
                 await self.add_menu_item('info', '‼ Ответы на часто задаваемые вопросы', None, 9, False)
-                await self.add_menu_item('contact', '✍ Написать МЕНЕДЖЕРУ @artem_orsk', '@artem_orsk', 10, False)
+                await self.add_menu_item('contact', '✍ Написать МЕНЕДЖЕРУ', '@appleempire56', 10, False)
                 
                 # Initialize empty price posts for dynamic items
                 await self.update_price_post(new_iphone_id, '')
